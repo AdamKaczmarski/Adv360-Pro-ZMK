@@ -78,13 +78,13 @@
             >;
         };
 
-        layer_Mac_Command_layer {
+        layer_Mac_Layer {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &kp LEFT_COMMAND  &trans                  &kp RIGHT_CONTROL  &kp RIGHT_COMMAND  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                                      &trans                             &trans                             &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans            &trans  &trans                             &trans             &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &kp LEFT_CONTROL            &trans                      &kp RIGHT_ALT  &kp RIGHT_CONTROL  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                                &trans                             &trans                             &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans            &trans  &kp LEFT_COMMAND                  &kp RIGHT_COMMAND             &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
